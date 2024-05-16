@@ -85,5 +85,4 @@ int main() {
          printf("- EVENTO: %s\n",event->title);
          printf("- DESCRICAO: %s\n",event->description);
          printf("- QUANTIDADE DE INGRESSOS: %d\n",event->ticketQuantity);
-
 }
