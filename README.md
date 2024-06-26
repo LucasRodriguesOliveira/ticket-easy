@@ -39,3 +39,11 @@ $ ./<program>
 ```
 
 Substitua `<program>` pelo nome adequado, para esse projeto, recomendo `ticket-easy`
+
+<details>
+<summary>Compilar - Linux (atalho - copia e cola)</summary>
+
+```bash
+$  gcc area.c -o area.o -c && gcc batch.c -o batch.o -c && gcc event.c -o event.o -c && gcc main.c -o main.o -c && gcc menu.c -o menu.o -c && gcc ticket.c -o ticket.o -c && gcc util.c -o util.o -c && gcc sale.c -o sale.o -c && gcc -o ticket-easy area.o batch.o event.o main.o menu.o util.o ticket.o sale.o
+```
+</details>
