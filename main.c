@@ -8,8 +8,8 @@
 #include "sale.h"
 
 struct OptionMenuItem menuItems[2] = {
-  { "Nova Venda", CLEAR },
   { "Eventos", CLEAR },
+  { "Nova Venda", CLEAR },
 };
 
 int main() {
